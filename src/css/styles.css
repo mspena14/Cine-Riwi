@@ -27,3 +27,6 @@ a{
     color: #F2C53D;
     font-weight:700;
 }
+.peliculas{
+    display: flex;
+}
