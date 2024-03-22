@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabriela", serif;
 }
 :root{
   --verde-intenso:#0a2616;
@@ -16,12 +19,14 @@ body {
 header{
   display: flex;
   border: 2px solid var(--verde-intenso);
+  border-width: 5px;
+  border-radius: 10px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--verde-medio);
   color: var(--blanco);
+  padding: 5px 10px;
 }
-
 
 h1 {
   font: weight 2000px;
@@ -43,4 +48,13 @@ a {
   color: var(--blanco);
   font-weight: 700;
 
+}
+
+.peliculas{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  border: 2px dashed ;
 }
