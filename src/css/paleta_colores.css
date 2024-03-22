@@ -199,3 +199,24 @@
 .LIGHT-ON-NYC---The-Color-of-Night-3-hsla { color: hsla(180, 83, 8, 1); }
 .LIGHT-ON-NYC---The-Color-of-Night-4-hsla { color: hsla(174, 96, 28, 1); }
 .LIGHT-ON-NYC---The-Color-of-Night-5-hsla { color: hsla(5, 87, 60, 1); }
+
+/* Color Theme Swatches in Hex */
+.Roam-in-the-Night-City-#3-Ueno-1-hex { color: #F20530; }
+.Roam-in-the-Night-City-#3-Ueno-2-hex { color: #011826; }
+.Roam-in-the-Night-City-#3-Ueno-3-hex { color: #6DBFF2; }
+.Roam-in-the-Night-City-#3-Ueno-4-hex { color: #024059; }
+.Roam-in-the-Night-City-#3-Ueno-5-hex { color: #F2C53D; }
+
+/* Color Theme Swatches in RGBA */
+.Roam-in-the-Night-City-#3-Ueno-1-rgba { color: rgba(242, 4, 48, 1); }
+.Roam-in-the-Night-City-#3-Ueno-2-rgba { color: rgba(0, 23, 38, 1); }
+.Roam-in-the-Night-City-#3-Ueno-3-rgba { color: rgba(109, 191, 242, 1); }
+.Roam-in-the-Night-City-#3-Ueno-4-rgba { color: rgba(1, 64, 89, 1); }
+.Roam-in-the-Night-City-#3-Ueno-5-rgba { color: rgba(242, 196, 60, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Roam-in-the-Night-City-#3-Ueno-1-hsla { color: hsla(348, 96, 48, 1); }
+.Roam-in-the-Night-City-#3-Ueno-2-hsla { color: hsla(202, 96, 7, 1); }
+.Roam-in-the-Night-City-#3-Ueno-3-hsla { color: hsla(202, 83, 68, 1); }
+.Roam-in-the-Night-City-#3-Ueno-4-hsla { color: hsla(196, 96, 17, 1); }
+.Roam-in-the-Night-City-#3-Ueno-5-hsla { color: hsla(45, 87, 59, 1); }
