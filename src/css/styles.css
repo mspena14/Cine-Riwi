@@ -17,6 +17,11 @@
 .body {
   background-color: var(--fondo-claro);
 }
+/* .main{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+} */
 .header{
   display: flex;
   border: 2px solid var(--verde-intenso);
@@ -53,14 +58,32 @@
 .seccion-cartelera {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
+  align-items:center;
+  justify-content: space-evenly;
 }
 .card{
+  width: 30%;
   border: 3px dashed var(--verde-medio);
   display: flex;
-
+  align-items: center;
 }
 
-img{
+.info-pelicula{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--verde-claro);
 
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 20px;
+}
+.info-pelicula figcaption{
+  font-size: 30px;
+}
+.info-pelicula a{
+  color: var(--blanco);
+  font-weight: 700;
+  text-decoration: none;
 }
