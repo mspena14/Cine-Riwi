@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Gabriela", serif;
 }
-:root{
-  --verde-intenso:#0a2616;
-  --fondo-claro:#9ea697;
-  --verde-medio:#154028;
-  --verde-claro:#22593a;
-  --negro:#0d0d0d;
-  --blanco:#f2f2f2;
+
+:root {
+  --verde-intenso: #0a2616;
+  --fondo-claro: #9ea697;
+  --verde-medio: #154028;
+  --verde-claro: #22593a;
+  --negro: #0d0d0d;
+  --blanco: #f2f2f2;
 }
+
 .body {
   background-color: var(--fondo-claro);
 }
+
 /* .main{
   width: 100%;
   align-items: center;
   justify-content: center;
 } */
-.header{
+.header {
   display: flex;
   border: 2px solid var(--verde-intenso);
   border-radius: 10px;
@@ -31,6 +35,7 @@
   background-color: var(--verde-medio);
   color: var(--blanco);
   padding: 5px 10px;
+  margin-bottom: 30px;
 }
 
 .h1 {
@@ -49,7 +54,7 @@
   gap: 20px;
 }
 
-.nav a{
+.nav a {
   color: var(--blanco);
   font-weight: 700;
   text-decoration: none;
@@ -59,31 +64,48 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  align-items:center;
+  width: 100%;
+  align-items: center;
   justify-content: space-evenly;
 }
-.card{
+
+.card {
+  margin: 10px;
   width: 30%;
-  border: 3px dashed var(--verde-medio);
-  display: flex;
-  align-items: center;
+  border-radius: 6px;
+  background-color: var(--verde-claro);
+  box-shadow: 0px 1px 10px rgba(10, 38, 22, 1);
+  cursor: default;
 }
 
-.info-pelicula{
-  display: flex;
-  flex-direction: column;
+.card img {
+  width: 100%;
+  height: 500px;
+}
+
+.card .info-pelicula {
   border: 2px solid var(--verde-claro);
+  padding: 15px;
+  text-align: center;
+}
 
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px;
-  gap: 20px;
+.card p{
+  color: var(--blanco)
 }
-.info-pelicula figcaption{
+.info-pelicula figcaption {
   font-size: 30px;
-}
-.info-pelicula a{
   color: var(--blanco);
-  font-weight: 700;
-  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.card .info-pelicula a{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--blanco);
+    border: 2px dashed var(--verde-intenso);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 300ms ease;
 }
