@@ -19,6 +19,7 @@
 
 .body {
   background-color: var(--fondo-claro);
+  width: 100%;
 }
 
 /* .main{
@@ -54,7 +55,7 @@
   gap: 20px;
 }
 
-.nav a {
+.nav a{
   color: var(--blanco);
   font-weight: 700;
   text-decoration: none;
@@ -65,11 +66,12 @@
   flex-wrap: wrap;
   gap: 20px;
   width: 100%;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-evenly;
 }
 
 .card {
+  flex: auto
   margin: 10px;
   width: 30%;
   border-radius: 6px;
@@ -89,23 +91,25 @@
   text-align: center;
 }
 
-.card p{
+.card p {
   color: var(--blanco)
 }
+
 .info-pelicula figcaption {
   font-size: 30px;
   color: var(--blanco);
   margin-bottom: 15px;
 }
 
-.card .info-pelicula a{
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    text-decoration: none;
-    color: var(--blanco);
-    border: 2px dashed var(--verde-intenso);
-    border-radius: 5px;
-    margin-bottom: 5px;
-    transition: all 300ms ease;
+.card .info-pelicula a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--blanco);
+  border: 2px dashed var(--verde-intenso);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 300ms ease;
 }
+
