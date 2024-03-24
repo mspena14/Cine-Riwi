@@ -114,7 +114,21 @@
   margin-top: 10px;
   text-decoration: none;
   color: var(--blanco);
-  border: 2px dashed var(--verde-intenso);
+  background-color: var(--verde-claro);
+  border: 2px solid var(--verde-intenso);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 300ms ease;
+}
+
+.card .info-pelicula a:hover {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--verde-intenso);
+  background-color: var(--blanco);
+  border: 2px solid var(--verde-intenso);
   border-radius: 5px;
   margin-bottom: 5px;
   transition: all 300ms ease;
@@ -220,7 +234,7 @@
   display: block;
   max-width: 300px;
   margin-left: 40px;
-  text-wrap:balance ;
+  text-wrap: balance;
 }
 
 .redes h3 {
@@ -263,7 +277,8 @@
   margin: 0;
   background-color: var(--blanco);
 }
-.contenido-footer q{
+
+.contenido-footer q {
   margin-left: 250px;
   margin-right: 50px;
 }
@@ -271,6 +286,7 @@
 .contenido-footer .mapa {
   margin: 0;
 }
+
 .footer .derechos-de-autor {
   display: flex;
   margin-top: 10px;
