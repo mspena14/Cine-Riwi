@@ -30,7 +30,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  display: inline-block;
 }
 
 .header {
@@ -80,7 +79,7 @@
 .card {
   display: inline-block;
   margin: 10px;
-  width: 30%;
+  width: 350px;
   border-radius: 6px;
   background-color: var(--verde-claro);
   box-shadow: 0px 1px 10px rgba(10, 38, 22, 1);
@@ -139,7 +138,11 @@
   border: 1px solid var(--verde-intenso);
   box-shadow: 1px 1px 5px 3px rgba(10, 38, 22, 1);
 }
-.collage-estrenos-1, .collage-estrenos-1 a ,.collage-estrenos-2, .collage-estrenos-2 a {
+
+.collage-estrenos-1,
+.collage-estrenos-1 a,
+.collage-estrenos-2,
+.collage-estrenos-2 a {
   justify-content: center;
   align-items: center;
   margin: 20px;
@@ -170,32 +173,31 @@
 
 .seccion-contacto {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
-  padding: px; 
+  align-items: center;
+  justify-content: center;
+  padding: px;
   width: 800px;
   height: 420px;
-  margin: 50px auto; 
+  margin: 50px auto;
   background-color: var(--verde-claro);
   color: var(--blanco);
   gap: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 10px rgba(10, 38, 22, 1);
 }
 
-.seccion-contacto .redes {
-  display: block;
-  max-width: 300px;
-  margin-left: 40px;
-}
+
 .seccion-contacto .form {
   display: flex;
-  align-items:flex-start;
   flex-direction: column;
   text-align: start;
   margin-top: 10px;
   width: 100%;
-  gap: 5px;
+  justify-content: center;
 }
-.seccion-contacto .form input, .seccion-contacto .form textarea {
+
+.seccion-contacto .form input,
+.seccion-contacto .form textarea {
   width: 85%;
   margin-bottom: 5px;
 }
@@ -205,16 +207,33 @@
   max-height: 200px;
 }
 
-.redes h3{
+.form .submit {
+  margin-top: 20px;
+  color: var(--verde-intenso);
+  max-width: 30%;
+  align-self: end;
+  margin-right: 15%;
+  height: 35px;
+}
+
+.seccion-contacto .redes {
+  display: block;
+  max-width: 300px;
+  margin-left: 40px;
+  text-wrap:balance ;
+}
+
+.redes h3 {
   font-size: 25px;
   margin: 10px 0px
-} 
+}
 
 .redes .i {
   display: flex;
   max-width: 60%;
-  gap: 10%;
+  justify-content: space-between;
 }
+
 .redes i {
   color: var(--blanco);
   font-size: 30px;
