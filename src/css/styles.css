@@ -238,3 +238,44 @@
   color: var(--blanco);
   font-size: 30px;
 }
+
+.footer {
+  display: block;
+  margin-top: 0;
+  background-color: var(--verde-medio);
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+.footer .contenido-footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: var(--blanco);
+  justify-self: auto;
+}
+
+.footer img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  background-color: var(--blanco);
+}
+.contenido-footer q{
+  margin-left: 250px;
+  margin-right: 50px;
+}
+
+.contenido-footer .mapa {
+  margin: 0;
+}
+.footer .derechos-de-autor {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: var(--blanco);
+  justify-content: center;
+  font-size: 10;
+}
