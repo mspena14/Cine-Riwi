@@ -29,6 +29,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  display: inline-block;
 }
 
 .header {
@@ -152,4 +153,16 @@
   padding: 0;
   width: 350px;
   height: 450px;
+}
+
+.secciones-cine-riwi {
+  display: inline-block;
+  color: var(--blanco);
+  border: 3px solid var(--verde-intenso);
+  border-right: 1px;
+  border-left: 1px;
+  width: 100%;
+  background-color: var(--verde-medio);
+  padding-left: 30px;
+  font-size: 35px;
 }
