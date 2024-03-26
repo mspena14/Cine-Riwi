@@ -15,6 +15,9 @@
   --verde-claro: #22593a;
   --negro: #0d0d0d;
   --blanco: #f2f2f2;
+  --shadow-green: 0px 1px 10px rgba(10, 38, 22, 1);
+  --text-efect: text-shadow 300ms ease;
+  --shadow-white: 1px 0px 15px rgba(255, 255, 255, 1);
 }
 
 .body {
@@ -61,11 +64,15 @@
 }
 
 .nav a {
+  transition: var(--text-efect);
   color: var(--blanco);
   font-weight: 700;
   text-decoration: none;
 }
 
+.nav a:hover {
+  text-shadow: var(--shadow-white);
+}
 
 .bienvenida {
   display: flex;
@@ -104,7 +111,7 @@
   width: 350px;
   border-radius: 6px;
   background-color: var(--verde-claro);
-  box-shadow: 0px 1px 10px rgba(10, 38, 22, 1);
+  box-shadow: var(--shadow);
 }
 
 .card img {
@@ -174,7 +181,7 @@
   max-height: 900px;
   flex-wrap: wrap;
   border: 1px solid var(--verde-intenso);
-  box-shadow: 1px 1px 5px 3px rgba(10, 38, 22, 1);
+  box-shadow: var(--shadow);
 }
 
 .collage-estrenos-1,
@@ -191,12 +198,16 @@
 }
 
 .seccion-estrenos img {
+  transition: box-shadow 0.3s ease;
   margin: 0;
   padding: 0;
   width: 350px;
   height: 450px;
 }
 
+.seccion-estrenos img:hover {
+  box-shadow: 0px 1px 10px rgba(10, 500, 20, 20) ;
+}
 .secciones-cine-riwi {
   display: inline-block;
   color: var(--blanco);
@@ -221,7 +232,7 @@
   color: var(--blanco);
   gap: 30px;
   border-radius: 6px;
-  box-shadow: 0px 1px 10px rgba(10, 38, 22, 1);
+  box-shadow: var(--shadow);
 }
 
 
@@ -240,6 +251,10 @@
   margin-bottom: 5px;
 }
 
+.seccion-contacto label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
 .form textarea {
   max-width: 500px;
   max-height: 200px;
@@ -273,8 +288,13 @@
 }
 
 .redes i {
+  transition: var(--text-efect);
   color: var(--blanco);
   font-size: 30px;
+}
+
+.redes i:hover {
+  text-shadow: var(--shadow-white);
 }
 
 .footer {
