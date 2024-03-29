@@ -22,13 +22,14 @@
   <link rel="stylesheet" href="./src/css/styles.css" />
 </head>
 
-<body class="body">
+<body class="body" id="home">
   <header class="header">
     <h1 class="h1">Cine Riwi</h1>
     <nav class="nav">
+      <a href="#home"><i class="bi bi-house-door"></i><span> Inicio</span></a>
       <a href="#estrenos"><i class="bi bi-film"></i> <span> Estrenos</span></a>
       <a href="#cartelera"><i class="bi bi-camera-reels-fill"></i><span> Cartelera</span></a>
-      <a href="#Contacto"><i class="bi bi-telephone-fill"></i> <span> Contacto</span></a>
+      <a href="#contacto"><i class="bi bi-telephone-fill"></i> <span> Contacto</span></a>
     </nav>
   </header>
   <main class="main">
@@ -37,8 +38,10 @@
         cartelera, recuerda visitar nuestra sección de estrenos donde encontraras nuestras más recientes películas o
         visita nuestra sección de contacto para ponerte en contacto con nosotros o dejarnos tus sugerencias.</p>
     </section>
-    <h2 class="secciones-cine-riwi" id="estrenos">Estrenos</h2>
-    <section class="seccion-estrenos">
+    <section class="seccion-estrenos" id="estrenos">
+      <span class="secciones-cine-riwi">
+        <h2>Estrenos</h2>
+      </span>
       <article class="contenedor-estrenos">
         <figure class="collage-estrenos-1">
           <a href="#avatar"><img src="https://i.pinimg.com/736x/83/8b/2c/838b2c4f6d1414f5cb8ee525e51939ce.jpg"
@@ -57,8 +60,11 @@
         </figure>
       </article>
     </section>
-    <h2 class="secciones-cine-riwi" id="cartelera">Cartelera</h2>
-    <section class="seccion-cartelera">
+
+    <section class="seccion-cartelera" id="cartelera">
+      <span class="secciones-cine-riwi">
+        <h2>Cartelera</h2>
+      </span>
       <article class="card">
         <figure>
           <img src="https://i.pinimg.com/736x/83/8b/2c/838b2c4f6d1414f5cb8ee525e51939ce.jpg"
@@ -183,8 +189,11 @@
         </div>
       </article>
     </section>
-    <h2 class="secciones-cine-riwi" id="Contacto">Contacto</h2>
-    <fieldset class="seccion-contacto">
+<div id="contacto"></div>
+    <span class="secciones-cine-riwi">
+      <h2>Contacto</h2>
+    </span>
+    <fieldset class="seccion-contacto" >
       <div class="redes">
         <h3>Contactanos</h3>
         <p>Para nosotros es muy importante estar en contacto con nuestros clientes para poder atender tus inquietudes,
